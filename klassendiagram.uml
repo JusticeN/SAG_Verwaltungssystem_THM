@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uKvGEK3AEealiNs_JbcLmA" name="Klassendiagram">
+  <packagedElement xmi:type="uml:Package" xmi:id="_gp6I4K3BEealiNs_JbcLmA" name="Benutzerverwaltung">
+    <packagedElement xmi:type="uml:Class" xmi:id="_mm32kK3BEealiNs_JbcLmA" name="User">
+      <ownedAttribute xmi:id="_85wCwK3BEealiNs_JbcLmA" name="ID" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_85xQ4K3BEealiNs_JbcLmA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_85xQ4a3BEealiNs_JbcLmA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CDaEMK3CEealiNs_JbcLmA" name="name" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CDbSUK3CEealiNs_JbcLmA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CDb5YK3CEealiNs_JbcLmA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZNEnEK3FEealiNs_JbcLmA" name="userDatas" type="_PusoIK3FEealiNs_JbcLmA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZNF1MK3FEealiNs_JbcLmA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZNGcQK3FEealiNs_JbcLmA" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_HXmhsK3CEealiNs_JbcLmA" name="pruefe_password"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-7LnoK3EEealiNs_JbcLmA" name="Role"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KVCb0K3FEealiNs_JbcLmA" name="Adresse"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PusoIK3FEealiNs_JbcLmA" name="UserData"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_llanUK3GEealiNs_JbcLmA" memberEnd="_llanUa3GEealiNs_JbcLmA _llb1cK3GEealiNs_JbcLmA" navigableOwnedEnd="_llb1cK3GEealiNs_JbcLmA">
+      <ownedEnd xmi:id="_llanUa3GEealiNs_JbcLmA" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="_llanUK3GEealiNs_JbcLmA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llbOYK3GEealiNs_JbcLmA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llbOYa3GEealiNs_JbcLmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_llb1cK3GEealiNs_JbcLmA" name="userDatas" type="_PusoIK3FEealiNs_JbcLmA" aggregation="composite" association="_llanUK3GEealiNs_JbcLmA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llb1ca3GEealiNs_JbcLmA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_llb1cq3GEealiNs_JbcLmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-HQlcK3GEealiNs_JbcLmA" memberEnd="_-HQlca3GEealiNs_JbcLmA _-HQldK3GEealiNs_JbcLmA" navigableOwnedEnd="_-HQlca3GEealiNs_JbcLmA _-HQldK3GEealiNs_JbcLmA">
+      <name xsi:nil="true"/>
+      <ownedEnd xmi:id="_-HQlca3GEealiNs_JbcLmA" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="_-HQlcK3GEealiNs_JbcLmA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-HQlcq3GEealiNs_JbcLmA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-HQlc63GEealiNs_JbcLmA" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_-HQldK3GEealiNs_JbcLmA" name="adresses" type="_KVCb0K3FEealiNs_JbcLmA" association="_-HQlcK3GEealiNs_JbcLmA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-HQlda3GEealiNs_JbcLmA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-HQldq3GEealiNs_JbcLmA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_r-UVAK3EEealiNs_JbcLmA" name="Seminarverwaltung"/>
+</uml:Model>
