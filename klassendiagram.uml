@@ -42,6 +42,29 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-HQldq3GEealiNs_JbcLmA" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_V4f28K3QEeainPuiCQatUw" name="Dozent">
+      <generalization xmi:id="_qno_gK3QEeainPuiCQatUw" general="_-7LnoK3EEealiNs_JbcLmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dQTyAK3QEeainPuiCQatUw" name="Student">
+      <generalization xmi:id="_oA-fQK3QEeainPuiCQatUw" general="_-7LnoK3EEealiNs_JbcLmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_frpMAK3QEeainPuiCQatUw" name="Mitarbeiter">
+      <generalization xmi:id="_p0-zgK3QEeainPuiCQatUw" general="_-7LnoK3EEealiNs_JbcLmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_f4swkK3QEeainPuiCQatUw" name="Hausmeister">
+      <generalization xmi:id="_pGlccK3QEeainPuiCQatUw" general="_-7LnoK3EEealiNs_JbcLmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zo9PAK3QEeainPuiCQatUw" name="RoleGroup"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="__ja14K3QEeainPuiCQatUw" name="roleGroupsToRoles" memberEnd="__jbc8K3QEeainPuiCQatUw __jd5Mq3QEeainPuiCQatUw" navigableOwnedEnd="__jd5Mq3QEeainPuiCQatUw">
+      <ownedEnd xmi:id="__jbc8K3QEeainPuiCQatUw" name="roleGroups" type="_zo9PAK3QEeainPuiCQatUw" association="__ja14K3QEeainPuiCQatUw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__jd5MK3QEeainPuiCQatUw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__jd5Ma3QEeainPuiCQatUw"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="__jd5Mq3QEeainPuiCQatUw" name="roles" type="_-7LnoK3EEealiNs_JbcLmA" aggregation="shared" association="__ja14K3QEeainPuiCQatUw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__jfHUK3QEeainPuiCQatUw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__jfHUa3QEeainPuiCQatUw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_r-UVAK3EEealiNs_JbcLmA" name="Seminarverwaltung"/>
 </uml:Model>
