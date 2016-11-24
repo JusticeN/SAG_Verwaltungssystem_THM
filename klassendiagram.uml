@@ -58,6 +58,17 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vGf80rJ4EeamopGo-9kmDA" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aIBosLKBEeaR1rrg68aV1w" name="ZugriffRechte"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gjJSALKBEeaR1rrg68aV1w" name="rolesToZugriffRechtes" memberEnd="_gjJSAbKBEeaR1rrg68aV1w _gjJ5ErKBEeaR1rrg68aV1w" navigableOwnedEnd="_gjJ5ErKBEeaR1rrg68aV1w">
+      <ownedEnd xmi:id="_gjJSAbKBEeaR1rrg68aV1w" name="roles" type="_-7LnoK3EEealiNs_JbcLmA" association="_gjJSALKBEeaR1rrg68aV1w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gjJ5ELKBEeaR1rrg68aV1w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gjJ5EbKBEeaR1rrg68aV1w" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_gjJ5ErKBEeaR1rrg68aV1w" name="zugriffRechtes" type="_aIBosLKBEeaR1rrg68aV1w" aggregation="shared" association="_gjJSALKBEeaR1rrg68aV1w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gjJ5E7KBEeaR1rrg68aV1w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gjKgILKBEeaR1rrg68aV1w" value="*"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_QZPssLJ1EeamopGo-9kmDA" name="Ressourcen"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_zluBgLJ1EeamopGo-9kmDA" name="Raum">
@@ -172,6 +183,16 @@
     <ownedEnd xmi:id="__0hnErJ9EeaR1rrg68aV1w" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="__0hAALJ9EeaR1rrg68aV1w">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__0iOILJ9EeaR1rrg68aV1w"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__0iOIbJ9EeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nMdIULKBEeaR1rrg68aV1w" name="usersToZugriffRechtes" memberEnd="_nMdvYLKBEeaR1rrg68aV1w _nMdvY7KBEeaR1rrg68aV1w" navigableOwnedEnd="_nMdvY7KBEeaR1rrg68aV1w">
+    <ownedEnd xmi:id="_nMdvYLKBEeaR1rrg68aV1w" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="_nMdIULKBEeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nMdvYbKBEeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nMdvYrKBEeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_nMdvY7KBEeaR1rrg68aV1w" name="zugriffRechtes" type="_aIBosLKBEeaR1rrg68aV1w" aggregation="shared" association="_nMdIULKBEeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nMdvZLKBEeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nMdvZbKBEeaR1rrg68aV1w" value="*"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
