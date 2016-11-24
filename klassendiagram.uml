@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uKvGEK3AEealiNs_JbcLmA" name="Klassendiagram">
   <packagedElement xmi:type="uml:Package" xmi:id="_gp6I4K3BEealiNs_JbcLmA" name="Benutzerverwaltung">
-    <packagedElement xmi:type="uml:Class" xmi:id="_mm32kK3BEealiNs_JbcLmA" name="User">
-      <ownedAttribute xmi:id="_85wCwK3BEealiNs_JbcLmA" name="ID" visibility="public">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_85xQ4K3BEealiNs_JbcLmA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_85xQ4a3BEealiNs_JbcLmA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_CDaEMK3CEealiNs_JbcLmA" name="name" visibility="public">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CDbSUK3CEealiNs_JbcLmA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CDb5YK3CEealiNs_JbcLmA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_ZNEnEK3FEealiNs_JbcLmA" name="userDatas" type="_PusoIK3FEealiNs_JbcLmA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZNF1MK3FEealiNs_JbcLmA" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZNGcQK3FEealiNs_JbcLmA" value="1"/>
-      </ownedAttribute>
-      <ownedOperation xmi:id="_HXmhsK3CEealiNs_JbcLmA" name="pruefe_password"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-7LnoK3EEealiNs_JbcLmA" name="Role"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_KVCb0K3FEealiNs_JbcLmA" name="Adresse"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_PusoIK3FEealiNs_JbcLmA" name="UserData"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_llanUK3GEealiNs_JbcLmA" memberEnd="_llanUa3GEealiNs_JbcLmA _llb1cK3GEealiNs_JbcLmA" navigableOwnedEnd="_llb1cK3GEealiNs_JbcLmA">
       <ownedEnd xmi:id="_llanUa3GEealiNs_JbcLmA" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="_llanUK3GEealiNs_JbcLmA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_llbOYK3GEealiNs_JbcLmA" value="1"/>
@@ -54,7 +35,9 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_f4swkK3QEeainPuiCQatUw" name="Hausmeister">
       <generalization xmi:id="_pGlccK3QEeainPuiCQatUw" general="_-7LnoK3EEealiNs_JbcLmA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_zo9PAK3QEeainPuiCQatUw" name="RoleGroup"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zo9PAK3QEeainPuiCQatUw" name="RoleGroup">
+      <generalization xmi:id="_jrvtkLJ0EeamopGo-9kmDA" general="_-7LnoK3EEealiNs_JbcLmA"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="__ja14K3QEeainPuiCQatUw" name="roleGroupsToRoles" memberEnd="__jbc8K3QEeainPuiCQatUw __jd5Mq3QEeainPuiCQatUw" navigableOwnedEnd="__jd5Mq3QEeainPuiCQatUw">
       <ownedEnd xmi:id="__jbc8K3QEeainPuiCQatUw" name="roleGroups" type="_zo9PAK3QEeainPuiCQatUw" association="__ja14K3QEeainPuiCQatUw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__jd5MK3QEeainPuiCQatUw"/>
@@ -65,6 +48,130 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__jfHUa3QEeainPuiCQatUw" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vGeusLJ4EeamopGo-9kmDA" memberEnd="_vGfVwLJ4EeamopGo-9kmDA _vGf80LJ4EeamopGo-9kmDA" navigableOwnedEnd="_vGf80LJ4EeamopGo-9kmDA">
+      <ownedEnd xmi:id="_vGfVwLJ4EeamopGo-9kmDA" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="_vGeusLJ4EeamopGo-9kmDA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vGfVwbJ4EeamopGo-9kmDA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vGfVwrJ4EeamopGo-9kmDA" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_vGf80LJ4EeamopGo-9kmDA" name="seminarBuchungs" type="_Ufv9ILJ3EeamopGo-9kmDA" association="_vGeusLJ4EeamopGo-9kmDA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vGf80bJ4EeamopGo-9kmDA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vGf80rJ4EeamopGo-9kmDA" value="*"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_r-UVAK3EEealiNs_JbcLmA" name="Seminarverwaltung"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QZPssLJ1EeamopGo-9kmDA" name="Ressourcen"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zluBgLJ1EeamopGo-9kmDA" name="Raum">
+    <generalization xmi:id="_9LtrYLJ1EeamopGo-9kmDA" general="_QZPssLJ1EeamopGo-9kmDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2Z1H4LJ1EeamopGo-9kmDA" name="Medien">
+    <generalization xmi:id="_9xn00LJ1EeamopGo-9kmDA" general="_QZPssLJ1EeamopGo-9kmDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QnVWkLJ2EeamopGo-9kmDA" name="Computer">
+    <generalization xmi:id="_hclccLJ2EeamopGo-9kmDA" general="_2Z1H4LJ1EeamopGo-9kmDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TWBxcLJ2EeamopGo-9kmDA" name="Flipchart">
+    <generalization xmi:id="_iIMlQLJ2EeamopGo-9kmDA" general="_2Z1H4LJ1EeamopGo-9kmDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XA9yILJ2EeamopGo-9kmDA" name="Beamer">
+    <generalization xmi:id="_jQrQQLJ2EeamopGo-9kmDA" general="_2Z1H4LJ1EeamopGo-9kmDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dgn9MLJ2EeamopGo-9kmDA" name="Bildschirm">
+    <generalization xmi:id="_ivdZkLJ2EeamopGo-9kmDA" general="_2Z1H4LJ1EeamopGo-9kmDA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r-49kLJ2EeamopGo-9kmDA" name="raumsToMediens" memberEnd="_r-49kbJ2EeamopGo-9kmDA _r-7Z0rJ2EeamopGo-9kmDA" navigableOwnedEnd="_r-7Z0rJ2EeamopGo-9kmDA">
+    <ownedEnd xmi:id="_r-49kbJ2EeamopGo-9kmDA" name="raums" type="_zluBgLJ1EeamopGo-9kmDA" association="_r-49kLJ2EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r-7Z0LJ2EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r-7Z0bJ2EeamopGo-9kmDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_r-7Z0rJ2EeamopGo-9kmDA" name="mediens" type="_2Z1H4LJ1EeamopGo-9kmDA" aggregation="shared" association="_r-49kLJ2EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r-8A4LJ2EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r-8A4bJ2EeamopGo-9kmDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OPRdkLJ3EeamopGo-9kmDA" name="Seminar"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ufv9ILJ3EeamopGo-9kmDA" name="Buchung"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-T2GMLJ3EeamopGo-9kmDA" name="SeminarKategorie"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M4iesLJ4EeamopGo-9kmDA" name="seminarKategoriesToSeminars" memberEnd="_M4jFwLJ4EeamopGo-9kmDA _M4jFw7J4EeamopGo-9kmDA" navigableOwnedEnd="_M4jFw7J4EeamopGo-9kmDA">
+    <ownedEnd xmi:id="_M4jFwLJ4EeamopGo-9kmDA" name="seminarKategories" type="_-T2GMLJ3EeamopGo-9kmDA" association="_M4iesLJ4EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M4jFwbJ4EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M4jFwrJ4EeamopGo-9kmDA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_M4jFw7J4EeamopGo-9kmDA" name="seminars" type="_OPRdkLJ3EeamopGo-9kmDA" aggregation="shared" association="_M4iesLJ4EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M4js0LJ4EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M4js0bJ4EeamopGo-9kmDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZDVAkLJ4EeamopGo-9kmDA" memberEnd="_ZDVAkbJ4EeamopGo-9kmDA _ZDWOsrJ4EeamopGo-9kmDA" navigableOwnedEnd="_ZDWOsrJ4EeamopGo-9kmDA">
+    <ownedEnd xmi:id="_ZDVAkbJ4EeamopGo-9kmDA" name="seminarBuchungs" type="_Ufv9ILJ3EeamopGo-9kmDA" association="_ZDVAkLJ4EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZDWOsLJ4EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZDWOsbJ4EeamopGo-9kmDA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_ZDWOsrJ4EeamopGo-9kmDA" name="seminars" type="_OPRdkLJ3EeamopGo-9kmDA" association="_ZDVAkLJ4EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZDW1wLJ4EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZDW1wbJ4EeamopGo-9kmDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e7JTELJ5EeamopGo-9kmDA" memberEnd="_e7JTEbJ5EeamopGo-9kmDA _e7J6IrJ5EeamopGo-9kmDA" navigableOwnedEnd="_e7J6IrJ5EeamopGo-9kmDA">
+    <ownedEnd xmi:id="_e7JTEbJ5EeamopGo-9kmDA" name="ressourcens" type="_QZPssLJ1EeamopGo-9kmDA" association="_e7JTELJ5EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e7J6ILJ5EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e7J6IbJ5EeamopGo-9kmDA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_e7J6IrJ5EeamopGo-9kmDA" name="seminarBuchungs" type="_Ufv9ILJ3EeamopGo-9kmDA" association="_e7JTELJ5EeamopGo-9kmDA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e7KhMLJ5EeamopGo-9kmDA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e7KhMbJ5EeamopGo-9kmDA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mWpl4LJ6EeamopGo-9kmDA" name="Meeting"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_huwYQLJ7EeamopGo-9kmDA" name="MeetingsEinladung">
+    <eAnnotations xmi:id="_uboeELJ8EeaR1rrg68aV1w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XbXK8LJ9EeaR1rrg68aV1w" memberEnd="_Xba1ULJ9EeaR1rrg68aV1w _Xbd4oLJ9EeaR1rrg68aV1w" navigableOwnedEnd="_Xbd4oLJ9EeaR1rrg68aV1w">
+    <ownedEnd xmi:id="_Xba1ULJ9EeaR1rrg68aV1w" name="meetingsEinladungs" type="_huwYQLJ7EeamopGo-9kmDA" association="_XbXK8LJ9EeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XbdRkLJ9EeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XbdRkbJ9EeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Xbd4oLJ9EeaR1rrg68aV1w" name="meetings" type="_mWpl4LJ6EeamopGo-9kmDA" association="_XbXK8LJ9EeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XbefsLJ9EeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XbefsbJ9EeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KVCb0K3FEealiNs_JbcLmA" name="Adresse"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PusoIK3FEealiNs_JbcLmA" name="UserData"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mm32kK3BEealiNs_JbcLmA" name="User">
+    <ownedAttribute xmi:id="_85wCwK3BEealiNs_JbcLmA" name="ID" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_85xQ4K3BEealiNs_JbcLmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_85xQ4a3BEealiNs_JbcLmA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CDaEMK3CEealiNs_JbcLmA" name="name" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CDbSUK3CEealiNs_JbcLmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CDb5YK3CEealiNs_JbcLmA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ZNEnEK3FEealiNs_JbcLmA" name="userDatas" type="_PusoIK3FEealiNs_JbcLmA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZNF1MK3FEealiNs_JbcLmA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZNGcQK3FEealiNs_JbcLmA" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_HXmhsK3CEealiNs_JbcLmA" name="pruefe_password"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6Zp50LJ9EeaR1rrg68aV1w" memberEnd="_6Zqg4LJ9EeaR1rrg68aV1w _6ZrvALJ9EeaR1rrg68aV1w" navigableOwnedEnd="_6ZrvALJ9EeaR1rrg68aV1w">
+    <ownedEnd xmi:id="_6Zqg4LJ9EeaR1rrg68aV1w" name="meetingsEinladungs" type="_huwYQLJ7EeamopGo-9kmDA" association="_6Zp50LJ9EeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6ZrH8LJ9EeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6ZrH8bJ9EeaR1rrg68aV1w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_6ZrvALJ9EeaR1rrg68aV1w" name="users" type="_mm32kK3BEealiNs_JbcLmA" aggregation="composite" association="_6Zp50LJ9EeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6ZrvAbJ9EeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6ZrvArJ9EeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__0hAALJ9EeaR1rrg68aV1w" memberEnd="__0hAAbJ9EeaR1rrg68aV1w __0hnErJ9EeaR1rrg68aV1w" navigableOwnedEnd="__0hnErJ9EeaR1rrg68aV1w">
+    <ownedEnd xmi:id="__0hAAbJ9EeaR1rrg68aV1w" name="meetings" type="_mWpl4LJ6EeamopGo-9kmDA" association="__0hAALJ9EeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__0hnELJ9EeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__0hnEbJ9EeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__0hnErJ9EeaR1rrg68aV1w" name="users" type="_mm32kK3BEealiNs_JbcLmA" association="__0hAALJ9EeaR1rrg68aV1w">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__0iOILJ9EeaR1rrg68aV1w"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__0iOIbJ9EeaR1rrg68aV1w" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
