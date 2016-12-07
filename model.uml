@@ -15,10 +15,18 @@
       <details xmi:id="_uY93sK2yEealiNs_JbcLmA" key="Human"/>
     </eAnnotations>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_8f9nkK2yEealiNs_JbcLmA" name="Ressourcen Verwaltung"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_QH860K2zEealiNs_JbcLmA" name="Benutzerverwaltung"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_GqP00K20EealiNs_JbcLmA" name="Seminar verwalten"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_QBw90K20EealiNs_JbcLmA" name="Meeting verwalten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_8f9nkK2yEealiNs_JbcLmA" name="Ressourcen Verwalten">
+    <include xmi:id="_pg0eMLoBEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QH860K2zEealiNs_JbcLmA" name="Benutzerverwalten">
+    <include xmi:id="_qO-ksLoBEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GqP00K20EealiNs_JbcLmA" name="Seminar verwalten">
+    <include xmi:id="_qsbVsLoBEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QBw90K20EealiNs_JbcLmA" name="Meeting verwalten">
+    <include xmi:id="_rNI2ELoBEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_VRYdUK20EealiNs_JbcLmA" memberEnd="_VRr_UK20EealiNs_JbcLmA _VRtNcK20EealiNs_JbcLmA">
     <ownedEnd xmi:id="_VRr_UK20EealiNs_JbcLmA" type="_A90vcK2yEealiNs_JbcLmA" association="_VRYdUK20EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_VRtNcK20EealiNs_JbcLmA" type="_8f9nkK2yEealiNs_JbcLmA" association="_VRYdUK20EealiNs_JbcLmA"/>
@@ -114,7 +122,10 @@
     </eAnnotations>
     <generalization xmi:id="_T_CAcK27EealiNs_JbcLmA" general="_yN03IK23EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_LwagkK24EealiNs_JbcLmA" name="Seminar CRUD"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LwagkK24EealiNs_JbcLmA" name="Seminar CRUD">
+    <extend xmi:id="_NahlELoFEeapJ-a-zwL5ag" extendedCase="_x0bLwLoEEeapJ-a-zwL5ag"/>
+    <extend xmi:id="_OA_IILoFEeapJ-a-zwL5ag" extendedCase="_x0oAELoEEeapJ-a-zwL5ag"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ZEMq0K24EealiNs_JbcLmA" memberEnd="_ZEMq0a24EealiNs_JbcLmA _ZENR4K24EealiNs_JbcLmA">
     <ownedEnd xmi:id="_ZEMq0a24EealiNs_JbcLmA" type="_yN8y8a23EealiNs_JbcLmA" association="_ZEMq0K24EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_ZENR4K24EealiNs_JbcLmA" type="_c6kC8K25EealiNs_JbcLmA" association="_ZEMq0K24EealiNs_JbcLmA"/>
@@ -144,6 +155,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_9MXL0K24EealiNs_JbcLmA" name="Abrechnung"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_c6kC8K25EealiNs_JbcLmA" name="Seminar anlegen">
     <include xmi:id="_GXcCAK2-EealiNs_JbcLmA" addition="_m_BKcK25EealiNs_JbcLmA"/>
+    <include xmi:id="_HBDhkLoFEeapJ-a-zwL5ag" addition="_LwagkK24EealiNs_JbcLmA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_m_BKcK25EealiNs_JbcLmA" name="Ressourcen zuweisen"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_DsHBAK26EealiNs_JbcLmA" name="Verfuegbarkeit Pruefen">
@@ -188,7 +200,7 @@
     <ownedEnd xmi:id="_yCsL5K28EealiNs_JbcLmA" association="_yCsL4628EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_yCsL5a28EealiNs_JbcLmA" type="_yC4ZIK28EealiNs_JbcLmA" association="_yCsL4628EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_yCsy8K28EealiNs_JbcLmA" name="Manager">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yCsy8K28EealiNs_JbcLmA" name="Organisator">
     <eAnnotations xmi:id="_yCsy8a28EealiNs_JbcLmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <details xmi:id="_yCsy8q28EealiNs_JbcLmA" key="Human"/>
     </eAnnotations>
@@ -199,7 +211,9 @@
       <details xmi:id="_yCv2Qq28EealiNs_JbcLmA" key="Human"/>
     </eAnnotations>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_yC0HsK28EealiNs_JbcLmA" name="Meeting Bestaetigen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yC0HsK28EealiNs_JbcLmA" name="Meeting Bestaetigen">
+    <extend xmi:id="_b1fY0LyBEeaa88vQ8WzD1Q" extendedCase="_abv-sLyBEeaa88vQ8WzD1Q"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_yC3yEK28EealiNs_JbcLmA" memberEnd="_yC3yEa28EealiNs_JbcLmA _yC3yEq28EealiNs_JbcLmA">
     <ownedEnd xmi:id="_yC3yEa28EealiNs_JbcLmA" type="_yC0HsK28EealiNs_JbcLmA" association="_yC3yEK28EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_yC3yEq28EealiNs_JbcLmA" association="_yC3yEK28EealiNs_JbcLmA"/>
@@ -299,4 +313,112 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
     <ownedEnd xmi:id="_HhUwUa3AEealiNs_JbcLmA" type="_-x3iUK2-EealiNs_JbcLmA" association="_HhUwUK3AEealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_HhVXYK3AEealiNs_JbcLmA" type="_XBUv8K2_EealiNs_JbcLmA" association="_HhUwUK3AEealiNs_JbcLmA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-IFSkLoAEeapJ-a-zwL5ag" name="Projektansehen">
+    <extend xmi:id="_kcgS8LoFEeapJ-a-zwL5ag" extendedCase="_bedZ4LoFEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FRMDQLoBEeapJ-a-zwL5ag" name="ProjektCRUD">
+    <extend xmi:id="_k9698LoFEeapJ-a-zwL5ag" extendedCase="_bedZ4LoFEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JkwxQLoBEeapJ-a-zwL5ag" name="Projektanlegen">
+    <include xmi:id="_V7tjALoFEeapJ-a-zwL5ag" addition="_FRMDQLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PLfJMLoBEeapJ-a-zwL5ag" name="Projektbearbeiten">
+    <include xmi:id="_WsPoELoFEeapJ-a-zwL5ag" addition="_FRMDQLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VVAFILoBEeapJ-a-zwL5ag" name="Projektloeschen">
+    <include xmi:id="_XSd6kLoFEeapJ-a-zwL5ag" addition="_FRMDQLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_i2PckLoBEeapJ-a-zwL5ag" name="Login">
+    <include xmi:id="_k3-OULoCEeapJ-a-zwL5ag" addition="_YOovQLoCEeapJ-a-zwL5ag"/>
+    <include xmi:id="_lffhULoCEeapJ-a-zwL5ag" addition="_aaoswLoCEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vMfAgLoBEeapJ-a-zwL5ag" name="UseCase40"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xqes8LoBEeapJ-a-zwL5ag" name="SystemVerwalten">
+    <include xmi:id="_JQCpALoCEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8sbXcLoBEeapJ-a-zwL5ag" name="Admin">
+    <eAnnotations xmi:id="_8sb-gLoBEeapJ-a-zwL5ag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_8sb-gboBEeapJ-a-zwL5ag" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ITW-ULoCEeapJ-a-zwL5ag" memberEnd="_ITW-UboCEeapJ-a-zwL5ag _ITYMcLoCEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_ITW-UboCEeapJ-a-zwL5ag" type="_8sbXcLoBEeapJ-a-zwL5ag" association="_ITW-ULoCEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_ITYMcLoCEeapJ-a-zwL5ag" type="_xqes8LoBEeapJ-a-zwL5ag" association="_ITW-ULoCEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_J7Xd8LoCEeapJ-a-zwL5ag" name="Projekt Verwalten">
+    <include xmi:id="_SwPz8LoCEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UMwOMLoCEeapJ-a-zwL5ag" memberEnd="_UMwOMboCEeapJ-a-zwL5ag _UMwOMroCEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_UMwOMboCEeapJ-a-zwL5ag" type="_HIQ4cK2yEealiNs_JbcLmA" association="_UMwOMLoCEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_UMwOMroCEeapJ-a-zwL5ag" type="_J7Xd8LoCEeapJ-a-zwL5ag" association="_UMwOMLoCEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_V8efYLoCEeapJ-a-zwL5ag" memberEnd="_V8efYboCEeapJ-a-zwL5ag _V8gUkLoCEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_V8efYboCEeapJ-a-zwL5ag" type="_uY8pkK2yEealiNs_JbcLmA" association="_V8efYLoCEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_V8gUkLoCEeapJ-a-zwL5ag" type="_J7Xd8LoCEeapJ-a-zwL5ag" association="_V8efYLoCEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOovQLoCEeapJ-a-zwL5ag" name="Password"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aaoswLoCEeapJ-a-zwL5ag" name="IdNr"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_q524QLoCEeapJ-a-zwL5ag" name="Mitarbeiter">
+    <eAnnotations xmi:id="_q53fULoCEeapJ-a-zwL5ag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_q53fUboCEeapJ-a-zwL5ag" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uFj_QLoCEeapJ-a-zwL5ag" name="Manager">
+    <eAnnotations xmi:id="_uFj_QboCEeapJ-a-zwL5ag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_uFj_QroCEeapJ-a-zwL5ag" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_VNbLkLoDEeapJ-a-zwL5ag" name="Admin">
+    <eAnnotations xmi:id="_VNbLkboDEeapJ-a-zwL5ag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_VNbLkroDEeapJ-a-zwL5ag" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_c17OALoDEeapJ-a-zwL5ag" name="Manger">
+    <eAnnotations xmi:id="_c171ELoDEeapJ-a-zwL5ag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_c171EboDEeapJ-a-zwL5ag" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gdFh8LoDEeapJ-a-zwL5ag" name="Loginverwalten">
+    <extend xmi:id="_zmTOgLoDEeapJ-a-zwL5ag" extendedCase="_p1rB8LoDEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iHKeILoDEeapJ-a-zwL5ag" name="BackUp">
+    <extend xmi:id="_y17hgLoDEeapJ-a-zwL5ag" extendedCase="_p1rB8LoDEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_p1rB8LoDEeapJ-a-zwL5ag" name="System Verwalten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s4O0ALoDEeapJ-a-zwL5ag" memberEnd="_s4PbELoDEeapJ-a-zwL5ag _s4PbEboDEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_s4PbELoDEeapJ-a-zwL5ag" type="_c17OALoDEeapJ-a-zwL5ag" association="_s4O0ALoDEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_s4PbEboDEeapJ-a-zwL5ag" type="_p1rB8LoDEeapJ-a-zwL5ag" association="_s4O0ALoDEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tbaZkLoDEeapJ-a-zwL5ag" memberEnd="_tbbAoLoDEeapJ-a-zwL5ag _tbc10LoDEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_tbbAoLoDEeapJ-a-zwL5ag" type="_VNbLkLoDEeapJ-a-zwL5ag" association="_tbaZkLoDEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_tbc10LoDEeapJ-a-zwL5ag" type="_p1rB8LoDEeapJ-a-zwL5ag" association="_tbaZkLoDEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vUQKgLoDEeapJ-a-zwL5ag" name="Recovery">
+    <extend xmi:id="_0ENSgLoDEeapJ-a-zwL5ag" extendedCase="_p1rB8LoDEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_AAuH0LoEEeapJ-a-zwL5ag" name="Anlegen">
+    <include xmi:id="_JH684LoEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_BMXbkLoEEeapJ-a-zwL5ag" name="Loeschen">
+    <include xmi:id="_Jl1A4LoEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DGY4QLoEEeapJ-a-zwL5ag" name="Bearbeiten">
+    <include xmi:id="_KNMi4LoEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x0bLwLoEEeapJ-a-zwL5ag" name="Bearbeiten">
+    <include xmi:id="_x0bLwboEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x0oAELoEEeapJ-a-zwL5ag" name="Loeschen">
+    <include xmi:id="_x0oAEboEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bedZ4LoFEeapJ-a-zwL5ag" name="Projektverwalten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_i7dW8LoFEeapJ-a-zwL5ag" memberEnd="_i7dW8boFEeapJ-a-zwL5ag _i7d-ALoFEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_i7dW8boFEeapJ-a-zwL5ag" type="_uFj_QLoCEeapJ-a-zwL5ag" association="_i7dW8LoFEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_i7d-ALoFEeapJ-a-zwL5ag" type="_bedZ4LoFEeapJ-a-zwL5ag" association="_i7dW8LoFEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tfpHYLoFEeapJ-a-zwL5ag" memberEnd="_tfpHYboFEeapJ-a-zwL5ag _tfpHYroFEeapJ-a-zwL5ag">
+    <ownedEnd xmi:id="_tfpHYboFEeapJ-a-zwL5ag" type="_q524QLoCEeapJ-a-zwL5ag" association="_tfpHYLoFEeapJ-a-zwL5ag"/>
+    <ownedEnd xmi:id="_tfpHYroFEeapJ-a-zwL5ag" type="_-IFSkLoAEeapJ-a-zwL5ag" association="_tfpHYLoFEeapJ-a-zwL5ag"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_abv-sLyBEeaa88vQ8WzD1Q" name="Anmerkung"/>
 </uml:Model>
