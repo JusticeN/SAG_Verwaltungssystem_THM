@@ -200,7 +200,7 @@
     <ownedEnd xmi:id="_yCsL5K28EealiNs_JbcLmA" association="_yCsL4628EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_yCsL5a28EealiNs_JbcLmA" type="_yC4ZIK28EealiNs_JbcLmA" association="_yCsL4628EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_yCsy8K28EealiNs_JbcLmA" name="Manager">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yCsy8K28EealiNs_JbcLmA" name="Organisator">
     <eAnnotations xmi:id="_yCsy8a28EealiNs_JbcLmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <details xmi:id="_yCsy8q28EealiNs_JbcLmA" key="Human"/>
     </eAnnotations>
@@ -211,7 +211,9 @@
       <details xmi:id="_yCv2Qq28EealiNs_JbcLmA" key="Human"/>
     </eAnnotations>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_yC0HsK28EealiNs_JbcLmA" name="Meeting Bestaetigen"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yC0HsK28EealiNs_JbcLmA" name="Meeting Bestaetigen">
+    <extend xmi:id="_b1fY0LyBEeaa88vQ8WzD1Q" extendedCase="_abv-sLyBEeaa88vQ8WzD1Q"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_yC3yEK28EealiNs_JbcLmA" memberEnd="_yC3yEa28EealiNs_JbcLmA _yC3yEq28EealiNs_JbcLmA">
     <ownedEnd xmi:id="_yC3yEa28EealiNs_JbcLmA" type="_yC0HsK28EealiNs_JbcLmA" association="_yC3yEK28EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_yC3yEq28EealiNs_JbcLmA" association="_yC3yEK28EealiNs_JbcLmA"/>
@@ -418,4 +420,5 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
     <ownedEnd xmi:id="_tfpHYboFEeapJ-a-zwL5ag" type="_q524QLoCEeapJ-a-zwL5ag" association="_tfpHYLoFEeapJ-a-zwL5ag"/>
     <ownedEnd xmi:id="_tfpHYroFEeapJ-a-zwL5ag" type="_-IFSkLoAEeapJ-a-zwL5ag" association="_tfpHYLoFEeapJ-a-zwL5ag"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_abv-sLyBEeaa88vQ8WzD1Q" name="Anmerkung"/>
 </uml:Model>
