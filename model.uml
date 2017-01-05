@@ -122,40 +122,27 @@
     </eAnnotations>
     <generalization xmi:id="_T_CAcK27EealiNs_JbcLmA" general="_yN03IK23EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_LwagkK24EealiNs_JbcLmA" name="Seminar CRUD">
-    <extend xmi:id="_NahlELoFEeapJ-a-zwL5ag" extendedCase="_x0bLwLoEEeapJ-a-zwL5ag"/>
-    <extend xmi:id="_OA_IILoFEeapJ-a-zwL5ag" extendedCase="_x0oAELoEEeapJ-a-zwL5ag"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ZEMq0K24EealiNs_JbcLmA" memberEnd="_ZEMq0a24EealiNs_JbcLmA _ZENR4K24EealiNs_JbcLmA">
     <ownedEnd xmi:id="_ZEMq0a24EealiNs_JbcLmA" type="_yN8y8a23EealiNs_JbcLmA" association="_ZEMq0K24EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_ZENR4K24EealiNs_JbcLmA" type="_c6kC8K25EealiNs_JbcLmA" association="_ZEMq0K24EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_bWW6sK24EealiNs_JbcLmA" name="Seminar anmelden">
-    <generalization xmi:id="_MNV3sK25EealiNs_JbcLmA" general="_LwagkK24EealiNs_JbcLmA"/>
-    <include xmi:id="_DpfnUK25EealiNs_JbcLmA" addition="_9MXL0K24EealiNs_JbcLmA"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bWW6sK24EealiNs_JbcLmA" name="Seminar anmelden"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_hRD-kK24EealiNs_JbcLmA" memberEnd="_hRD-ka24EealiNs_JbcLmA _hRD-kq24EealiNs_JbcLmA">
     <ownedEnd xmi:id="_hRD-ka24EealiNs_JbcLmA" type="_yN03IK23EealiNs_JbcLmA" association="_hRD-kK24EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_hRD-kq24EealiNs_JbcLmA" type="_bWW6sK24EealiNs_JbcLmA" association="_hRD-kK24EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_jYzuMK24EealiNs_JbcLmA" name="Seminarliste Uebersicht">
-    <generalization xmi:id="_My0jUK25EealiNs_JbcLmA" general="_LwagkK24EealiNs_JbcLmA"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jYzuMK24EealiNs_JbcLmA" name="Seminarliste Uebersicht"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_qLPrUK24EealiNs_JbcLmA" memberEnd="_qLPrUa24EealiNs_JbcLmA _qLQSYK24EealiNs_JbcLmA">
     <ownedEnd xmi:id="_qLPrUa24EealiNs_JbcLmA" type="_yN03IK23EealiNs_JbcLmA" association="_qLPrUK24EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_qLQSYK24EealiNs_JbcLmA" type="_jYzuMK24EealiNs_JbcLmA" association="_qLPrUK24EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_3f8bkK24EealiNs_JbcLmA" name="Seminar abmelden">
-    <generalization xmi:id="_NaeZMK25EealiNs_JbcLmA" general="_LwagkK24EealiNs_JbcLmA"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3f8bkK24EealiNs_JbcLmA" name="Seminar abmelden"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_6Wd8wK24EealiNs_JbcLmA" memberEnd="_6Wd8wa24EealiNs_JbcLmA _6Wej0K24EealiNs_JbcLmA">
     <ownedEnd xmi:id="_6Wd8wa24EealiNs_JbcLmA" type="_yN03IK23EealiNs_JbcLmA" association="_6Wd8wK24EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_6Wej0K24EealiNs_JbcLmA" type="_3f8bkK24EealiNs_JbcLmA" association="_6Wd8wK24EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9MXL0K24EealiNs_JbcLmA" name="Abrechnung"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_c6kC8K25EealiNs_JbcLmA" name="Seminar anlegen">
     <include xmi:id="_GXcCAK2-EealiNs_JbcLmA" addition="_m_BKcK25EealiNs_JbcLmA"/>
-    <include xmi:id="_HBDhkLoFEeapJ-a-zwL5ag" addition="_LwagkK24EealiNs_JbcLmA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_m_BKcK25EealiNs_JbcLmA" name="Ressourcen zuweisen"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_ULiA0K26EealiNs_JbcLmA" name="Seminar Bestaetigen"/>
@@ -386,11 +373,8 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_DGY4QLoEEeapJ-a-zwL5ag" name="Bearbeiten">
     <include xmi:id="_KNMi4LoEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_x0bLwLoEEeapJ-a-zwL5ag" name="Bearbeiten">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_x0bLwLoEEeapJ-a-zwL5ag" name="Seminar Bearbeiten">
     <include xmi:id="_x0bLwboEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_x0oAELoEEeapJ-a-zwL5ag" name="Loeschen">
-    <include xmi:id="_x0oAEboEEeapJ-a-zwL5ag" addition="_KLV8AK2_EealiNs_JbcLmA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_bedZ4LoFEeapJ-a-zwL5ag" name="Projektverwalten"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_i7dW8LoFEeapJ-a-zwL5ag" memberEnd="_i7dW8boFEeapJ-a-zwL5ag _i7d-ALoFEeapJ-a-zwL5ag">
@@ -417,5 +401,14 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
   <packagedElement xmi:type="uml:Association" xmi:id="_EDs2ANMnEeaffq2tdtGFnQ" memberEnd="_EDs2AdMnEeaffq2tdtGFnQ _EDtdENMnEeaffq2tdtGFnQ">
     <ownedEnd xmi:id="_EDs2AdMnEeaffq2tdtGFnQ" type="_DGY4QLoEEeapJ-a-zwL5ag" association="_EDs2ANMnEeaffq2tdtGFnQ"/>
     <ownedEnd xmi:id="_EDtdENMnEeaffq2tdtGFnQ" type="_-x3iUK2-EealiNs_JbcLmA" association="_EDs2ANMnEeaffq2tdtGFnQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J0nPQNMoEeaffq2tdtGFnQ" memberEnd="_J0n2UNMoEeaffq2tdtGFnQ _J0n2UdMoEeaffq2tdtGFnQ">
+    <ownedEnd xmi:id="_J0n2UNMoEeaffq2tdtGFnQ" type="_yN8y8a23EealiNs_JbcLmA" association="_J0nPQNMoEeaffq2tdtGFnQ"/>
+    <ownedEnd xmi:id="_J0n2UdMoEeaffq2tdtGFnQ" type="_x0bLwLoEEeapJ-a-zwL5ag" association="_J0nPQNMoEeaffq2tdtGFnQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nveggNMoEeaffq2tdtGFnQ" name="Seminar Bearbeiten"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uEZbMNMoEeaffq2tdtGFnQ" memberEnd="_uEaCQNMoEeaffq2tdtGFnQ _uEaCQdMoEeaffq2tdtGFnQ">
+    <ownedEnd xmi:id="_uEaCQNMoEeaffq2tdtGFnQ" type="_yN8y8a23EealiNs_JbcLmA" association="_uEZbMNMoEeaffq2tdtGFnQ"/>
+    <ownedEnd xmi:id="_uEaCQdMoEeaffq2tdtGFnQ" type="_nveggNMoEeaffq2tdtGFnQ" association="_uEZbMNMoEeaffq2tdtGFnQ"/>
   </packagedElement>
 </uml:Model>
