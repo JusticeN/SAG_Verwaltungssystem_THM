@@ -69,6 +69,9 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gjKgILKBEeaR1rrg68aV1w" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5fAzcNMfEea0R4Ep3WId3A" name="JFrame"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3WnuINMgEea0R4Ep3WId3A" name="RessourceManagementGui"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XZPgoNMiEea0R4Ep3WId3A" name="RessourcenGui"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_QZPssLJ1EeamopGo-9kmDA" name="Ressourcen"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_zluBgLJ1EeamopGo-9kmDA" name="Raum">

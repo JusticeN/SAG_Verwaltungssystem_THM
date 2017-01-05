@@ -158,15 +158,7 @@
     <include xmi:id="_HBDhkLoFEeapJ-a-zwL5ag" addition="_LwagkK24EealiNs_JbcLmA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_m_BKcK25EealiNs_JbcLmA" name="Ressourcen zuweisen"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_DsHBAK26EealiNs_JbcLmA" name="Verfuegbarkeit Pruefen">
-    <ownedComment xmi:id="_5WVqkK26EealiNs_JbcLmA" annotatedElement="_DsHBAK26EealiNs_JbcLmA">
-      <body>wird Raueme, Dozent und Beamer an dieser Datun frei ?</body>
-    </ownedComment>
-    <extend xmi:id="_M_IEgK26EealiNs_JbcLmA" extendedCase="_m_BKcK25EealiNs_JbcLmA"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ULiA0K26EealiNs_JbcLmA" name="Seminar Bestaetigen">
-    <extend xmi:id="_vPKmQK26EealiNs_JbcLmA" extendedCase="_DsHBAK26EealiNs_JbcLmA"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ULiA0K26EealiNs_JbcLmA" name="Seminar Bestaetigen"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_g7zOUK26EealiNs_JbcLmA" memberEnd="_g7zOUa26EealiNs_JbcLmA _g7z1YK26EealiNs_JbcLmA">
     <ownedEnd xmi:id="_g7zOUa26EealiNs_JbcLmA" type="_9i7uMK23EealiNs_JbcLmA" association="_g7zOUK26EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_g7z1YK26EealiNs_JbcLmA" type="_jYzuMK24EealiNs_JbcLmA" association="_g7zOUK26EealiNs_JbcLmA"/>
@@ -266,7 +258,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_-x3iUK2-EealiNs_JbcLmA" name="Hausmeister">
     <eAnnotations xmi:id="_-x3iUa2-EealiNs_JbcLmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
-      <details xmi:id="_-x3iUq2-EealiNs_JbcLmA" key="Human"/>
+      <details xmi:id="_11nmsNMmEeaffq2tdtGFnQ" key="Human"/>
     </eAnnotations>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_-x6loK2-EealiNs_JbcLmA" memberEnd="_-x6loa2-EealiNs_JbcLmA _-x6loq2-EealiNs_JbcLmA">
@@ -289,29 +281,23 @@
     <ownedEnd xmi:id="_-x9B4a2-EealiNs_JbcLmA" type="_-x3iUK2-EealiNs_JbcLmA" association="_-x9B4K2-EealiNs_JbcLmA"/>
     <ownedEnd xmi:id="_-x9B4q2-EealiNs_JbcLmA" type="_yC94sK28EealiNs_JbcLmA" association="_-x9B4K2-EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_ExOcsK2_EealiNs_JbcLmA" name="Ressource anlegen"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_KLV8AK2_EealiNs_JbcLmA" name="Ressourcen CRUD">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KLV8AK2_EealiNs_JbcLmA" name="Ressourcen Verwaltung">
     <ownedComment xmi:id="_52leoK2_EealiNs_JbcLmA" annotatedElement="_KLV8AK2_EealiNs_JbcLmA">
       <body>Verschieden Ressourcen Typen
 Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
     </ownedComment>
-    <extend xmi:id="_cwX9cK2_EealiNs_JbcLmA" extendedCase="_ExOcsK2_EealiNs_JbcLmA"/>
-    <extend xmi:id="_dSPUYK2_EealiNs_JbcLmA" extendedCase="_XBUv8K2_EealiNs_JbcLmA"/>
-    <extend xmi:id="_fyEM0K2_EealiNs_JbcLmA" extendedCase="_POMx4K2_EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_POMx4K2_EealiNs_JbcLmA" name="Ressourcen zuweisen"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_TJHIQK2_EealiNs_JbcLmA" memberEnd="_TJHvUK2_EealiNs_JbcLmA _TJHvUa2_EealiNs_JbcLmA">
     <ownedEnd xmi:id="_TJHvUK2_EealiNs_JbcLmA" type="_-xyCwK2-EealiNs_JbcLmA" association="_TJHIQK2_EealiNs_JbcLmA"/>
-    <ownedEnd xmi:id="_TJHvUa2_EealiNs_JbcLmA" type="_POMx4K2_EealiNs_JbcLmA" association="_TJHIQK2_EealiNs_JbcLmA"/>
+    <ownedEnd xmi:id="_TJHvUa2_EealiNs_JbcLmA" association="_TJHIQK2_EealiNs_JbcLmA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_T0zJkK2_EealiNs_JbcLmA" memberEnd="_T0zwoK2_EealiNs_JbcLmA _T0zwoa2_EealiNs_JbcLmA">
     <ownedEnd xmi:id="_T0zwoK2_EealiNs_JbcLmA" type="_-x3iUK2-EealiNs_JbcLmA" association="_T0zJkK2_EealiNs_JbcLmA"/>
-    <ownedEnd xmi:id="_T0zwoa2_EealiNs_JbcLmA" type="_ExOcsK2_EealiNs_JbcLmA" association="_T0zJkK2_EealiNs_JbcLmA"/>
+    <ownedEnd xmi:id="_T0zwoa2_EealiNs_JbcLmA" association="_T0zJkK2_EealiNs_JbcLmA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_XBUv8K2_EealiNs_JbcLmA" name="Ressourcen abmelden"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_HhUwUK3AEealiNs_JbcLmA" memberEnd="_HhUwUa3AEealiNs_JbcLmA _HhVXYK3AEealiNs_JbcLmA">
     <ownedEnd xmi:id="_HhUwUa3AEealiNs_JbcLmA" type="_-x3iUK2-EealiNs_JbcLmA" association="_HhUwUK3AEealiNs_JbcLmA"/>
-    <ownedEnd xmi:id="_HhVXYK3AEealiNs_JbcLmA" type="_XBUv8K2_EealiNs_JbcLmA" association="_HhUwUK3AEealiNs_JbcLmA"/>
+    <ownedEnd xmi:id="_HhVXYK3AEealiNs_JbcLmA" association="_HhUwUK3AEealiNs_JbcLmA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_-IFSkLoAEeapJ-a-zwL5ag" name="Projektansehen">
     <extend xmi:id="_kcgS8LoFEeapJ-a-zwL5ag" extendedCase="_bedZ4LoFEeapJ-a-zwL5ag"/>
@@ -328,10 +314,7 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_VVAFILoBEeapJ-a-zwL5ag" name="Projektloeschen">
     <include xmi:id="_XSd6kLoFEeapJ-a-zwL5ag" addition="_FRMDQLoBEeapJ-a-zwL5ag"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_i2PckLoBEeapJ-a-zwL5ag" name="Login">
-    <include xmi:id="_k3-OULoCEeapJ-a-zwL5ag" addition="_YOovQLoCEeapJ-a-zwL5ag"/>
-    <include xmi:id="_lffhULoCEeapJ-a-zwL5ag" addition="_aaoswLoCEeapJ-a-zwL5ag"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_i2PckLoBEeapJ-a-zwL5ag" name="Login"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_vMfAgLoBEeapJ-a-zwL5ag" name="UseCase40"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_xqes8LoBEeapJ-a-zwL5ag" name="SystemVerwalten">
     <include xmi:id="_JQCpALoCEeapJ-a-zwL5ag" addition="_i2PckLoBEeapJ-a-zwL5ag"/>
@@ -356,8 +339,6 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
     <ownedEnd xmi:id="_V8efYboCEeapJ-a-zwL5ag" type="_uY8pkK2yEealiNs_JbcLmA" association="_V8efYLoCEeapJ-a-zwL5ag"/>
     <ownedEnd xmi:id="_V8gUkLoCEeapJ-a-zwL5ag" type="_J7Xd8LoCEeapJ-a-zwL5ag" association="_V8efYLoCEeapJ-a-zwL5ag"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_YOovQLoCEeapJ-a-zwL5ag" name="Password"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_aaoswLoCEeapJ-a-zwL5ag" name="IdNr"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_q524QLoCEeapJ-a-zwL5ag" name="Mitarbeiter">
     <eAnnotations xmi:id="_q53fULoCEeapJ-a-zwL5ag" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <details xmi:id="_q53fUboCEeapJ-a-zwL5ag" key="Human"/>
@@ -421,4 +402,20 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
     <ownedEnd xmi:id="_tfpHYroFEeapJ-a-zwL5ag" type="_-IFSkLoAEeapJ-a-zwL5ag" association="_tfpHYLoFEeapJ-a-zwL5ag"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_abv-sLyBEeaa88vQ8WzD1Q" name="Anmerkung"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9AG3cNMmEeaffq2tdtGFnQ" memberEnd="_9AHegNMmEeaffq2tdtGFnQ _9AIFkNMmEeaffq2tdtGFnQ">
+    <ownedEnd xmi:id="_9AHegNMmEeaffq2tdtGFnQ" type="_-xyCwK2-EealiNs_JbcLmA" association="_9AG3cNMmEeaffq2tdtGFnQ"/>
+    <ownedEnd xmi:id="_9AIFkNMmEeaffq2tdtGFnQ" type="_DGY4QLoEEeapJ-a-zwL5ag" association="_9AG3cNMmEeaffq2tdtGFnQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AFod8NMnEeaffq2tdtGFnQ" memberEnd="_AFpFANMnEeaffq2tdtGFnQ _AFpFAdMnEeaffq2tdtGFnQ">
+    <ownedEnd xmi:id="_AFpFANMnEeaffq2tdtGFnQ" type="_-x3iUK2-EealiNs_JbcLmA" association="_AFod8NMnEeaffq2tdtGFnQ"/>
+    <ownedEnd xmi:id="_AFpFAdMnEeaffq2tdtGFnQ" type="_BMXbkLoEEeapJ-a-zwL5ag" association="_AFod8NMnEeaffq2tdtGFnQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Czbg8NMnEeaffq2tdtGFnQ" memberEnd="_Czbg8dMnEeaffq2tdtGFnQ _CzcIANMnEeaffq2tdtGFnQ">
+    <ownedEnd xmi:id="_Czbg8dMnEeaffq2tdtGFnQ" type="_-x3iUK2-EealiNs_JbcLmA" association="_Czbg8NMnEeaffq2tdtGFnQ"/>
+    <ownedEnd xmi:id="_CzcIANMnEeaffq2tdtGFnQ" type="_AAuH0LoEEeapJ-a-zwL5ag" association="_Czbg8NMnEeaffq2tdtGFnQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EDs2ANMnEeaffq2tdtGFnQ" memberEnd="_EDs2AdMnEeaffq2tdtGFnQ _EDtdENMnEeaffq2tdtGFnQ">
+    <ownedEnd xmi:id="_EDs2AdMnEeaffq2tdtGFnQ" type="_DGY4QLoEEeapJ-a-zwL5ag" association="_EDs2ANMnEeaffq2tdtGFnQ"/>
+    <ownedEnd xmi:id="_EDtdENMnEeaffq2tdtGFnQ" type="_-x3iUK2-EealiNs_JbcLmA" association="_EDs2ANMnEeaffq2tdtGFnQ"/>
+  </packagedElement>
 </uml:Model>
