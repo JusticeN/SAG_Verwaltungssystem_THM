@@ -406,7 +406,7 @@ Raum, Beamer, Möbel, PC, Laserpointer, Digital Geräte, ...</body>
     <ownedEnd xmi:id="_J0n2UNMoEeaffq2tdtGFnQ" type="_yN8y8a23EealiNs_JbcLmA" association="_J0nPQNMoEeaffq2tdtGFnQ"/>
     <ownedEnd xmi:id="_J0n2UdMoEeaffq2tdtGFnQ" type="_x0bLwLoEEeapJ-a-zwL5ag" association="_J0nPQNMoEeaffq2tdtGFnQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_nveggNMoEeaffq2tdtGFnQ" name="Seminar Bearbeiten"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nveggNMoEeaffq2tdtGFnQ" name="Seminar loeschen"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_uEZbMNMoEeaffq2tdtGFnQ" memberEnd="_uEaCQNMoEeaffq2tdtGFnQ _uEaCQdMoEeaffq2tdtGFnQ">
     <ownedEnd xmi:id="_uEaCQNMoEeaffq2tdtGFnQ" type="_yN8y8a23EealiNs_JbcLmA" association="_uEZbMNMoEeaffq2tdtGFnQ"/>
     <ownedEnd xmi:id="_uEaCQdMoEeaffq2tdtGFnQ" type="_nveggNMoEeaffq2tdtGFnQ" association="_uEZbMNMoEeaffq2tdtGFnQ"/>
